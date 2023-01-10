@@ -1,3 +1,6 @@
+#[cfg(feature = "heapless")]
+mod heapless;
+
 #[cfg(feature = "ijson")]
 mod ijson;
 

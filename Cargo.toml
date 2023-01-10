@@ -16,6 +16,7 @@ nostd = []
 nightly = []
 
 [dependencies]
+heapless = { git = "https://github.com/Foundation-Devices/heapless.git", branch = "integration", optional = true }
 ijson = { version = "^0.1", optional = true }
 serde_json = { version = "^1.0.71", optional = true }
 slab = { version = "^0.4", optional = true }
